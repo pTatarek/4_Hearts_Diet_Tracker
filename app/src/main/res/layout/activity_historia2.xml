@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Historia2Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/przed_posilki_historia2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:text="@string/posilki_tego_dnia"
+                android:textColor="@color/app_green"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="8dp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/posilki_historia2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="TextContrastCheck"
+                android:layout_marginBottom="32dp"/>
+
+            <TextView
+                android:id="@+id/przed_wart_odz_historia2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/warto_odzywcza_wszystkich_posilkow"
+                android:textColor="@color/app_green"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck"
+                android:layout_marginBottom="8dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_wart_energ_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/wartosc_energetyczna_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/wart_energ_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_tluszcz_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/tluszcz_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/tluszcz_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_kwasy_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/kwasy_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/kwasy_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_wegle_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/weglowodany_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/wegle_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_cukry_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/cukry_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/cukry_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_bialko_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/bialko_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/bialko_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_sol_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/sol_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/sol_historia2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

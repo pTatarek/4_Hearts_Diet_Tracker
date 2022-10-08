@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stworz2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/nazwa_posilku_stworz2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/app_green"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/we"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/wartosc_energetyczna"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:minHeight="60dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/tl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/tluszcz"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:minHeight="60dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/ktn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/kwasy_tluszczowe_nasycone"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:minHeight="60dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/wegl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/weglowodany"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:minHeight="60dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/cu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/cukry"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:minHeight="60dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/bia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/bialko"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:minHeight="60dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/so"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/sol"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:minHeight="60dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/ostrzezenie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/jesli_nie_znasz_wartosci_odzywczych_pozostaw_pola_puste"
+                android:textColor="@color/app_green"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/dalej2_button"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/round_button_style"
+                android:text="@string/dalej"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

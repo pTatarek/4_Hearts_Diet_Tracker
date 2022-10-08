@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/drawable/round_button_style.xml" value="0.1425" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/drawable/rounded_button.xml" value="0.1775" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/activity_dodaj1.xml" value="0.25" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/activity_dodaj2.xml" value="0.33" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/activity_dodaj3.xml" value="0.33" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/activity_historia1.xml" value="0.2743055555555556" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/activity_historia2.xml" value="0.33" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/activity_stworz1.xml" value="0.22" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/activity_stworz2.xml" value="0.18" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/activity_stworz3.xml" value="0.33" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/activity_stworz4.xml" value="0.33" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/activity_stworz5.xml" value="0.33" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/activity_tymczasowy.xml" value="0.23515625" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/dodaj1_lista.xml" value="0.22" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/dodaj2_lista.xml" value="0.33" />
+        <entry key="..\:/Users/patry/AndroidStudioProjects/4HeartsDietTracker/app/src/main/res/layout/nazwy_przepisow_layout.xml" value="0.2743055555555556" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

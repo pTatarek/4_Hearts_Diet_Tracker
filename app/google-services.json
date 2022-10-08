@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1096038647332",
+    "project_id": "hearts-diet-tracker",
+    "storage_bucket": "hearts-diet-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096038647332:android:02b5fbdd2e6340936cfab1",
+        "android_client_info": {
+          "package_name": "com.example.a4heartsdiettracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096038647332-1fmgs54d4ih7ras4ccihgf71mljgogum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6Hz70kvJ3UzqaTsxXQ2sKju5Dem6mZ88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096038647332-1fmgs54d4ih7ras4ccihgf71mljgogum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

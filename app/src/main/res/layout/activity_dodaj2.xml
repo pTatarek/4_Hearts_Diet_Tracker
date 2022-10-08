@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dodaj2Activity">
+
+    <TextView
+        android:id="@+id/wartEnerg_inv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/SV"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tluszcz_inv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/SV"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/kwasy_inv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/SV"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/wegle_inv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/SV"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/cukry_inv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/SV"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/bialko_inv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/SV"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/sol_inv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/SV"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:visibility="invisible" />
+
+    <ScrollView
+        android:id="@+id/SV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/nazwa_posilku_dodaj2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:textColor="@color/app_green"
+                android:textSize="38sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/przed_porcje_dodaj2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/ilosc_porcji"
+                android:textColor="@color/app_green"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/porcje_dodaj2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/przed_skladniki_dodaj2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/skladniki_final"
+                android:textColor="@color/app_green"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/skladniki_dodaj2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/przed_instrukcja_dodaj2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/instrukcja_przygotowania"
+                android:textColor="@color/app_green"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/instrukcja_dodaj2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/przed_wart_odz_dodaj2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/wartosc_odzywcza"
+                android:textColor="@color/app_green"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck"
+                android:layout_marginBottom="8dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_wart_energ_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/wartosc_energetyczna_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/wart_energ_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_tluszcz_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/tluszcz_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/tluszcz_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_kwasy_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/kwasy_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/kwasy_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_wegle_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/weglowodany_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/wegle_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_cukry_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/cukry_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/cukry_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_bialko_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/bialko_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/bialko_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lewy_sol_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/sol_dwukropek"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:id="@+id/sol_dodaj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="RelativeOverlap"
+                    android:layout_marginEnd="16dp"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/dodaj_posilek_dodaj2"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/round_button_style"
+                android:text="@string/ilosc_porcji"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
